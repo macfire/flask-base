@@ -32,6 +32,12 @@ TextMate project file included.
 
 ####Code Reminders
 
+    user:~/flask-base $ virtualenv venv
+
+
+    user:~/flask-base $ python venv/bin/activate
+
+
     (venv) $ python manage.py shell
     >>> from app import db
     >>> db.create_all()
