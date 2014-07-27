@@ -28,7 +28,7 @@ TextMate project file included.
     >>> db.create_all()
 
 ***
-<a name="credit"></a>
+<a id="credit"></a>
 ####Credit
 
 Structure and scripts pulled from various sources, including: 
