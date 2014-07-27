@@ -60,6 +60,11 @@ Create database
     >>> from app import db
     >>> db.create_all()
 
+Generate requirements
+
+    (venv) $ pip freeze >requirements/common.txt
+
+
 ***
 
 ####Credits
