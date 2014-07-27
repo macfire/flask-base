@@ -5,6 +5,8 @@ Starter template for Flask-based apps.
 
 *(27 July 2014: This is a new work-in-progress; many changes are expected.)*
 
+####Credit
+
 Structure and scripts pulled from various sources, including: 
 
 * https://github.com/miguelgrinberg/flasky
@@ -19,6 +21,12 @@ TextMate project file included
 
 ####Structure
 
+    - flask-base
+    |- config.py
+    |- manage.py
+    |- app
+    |- requirements
+    |- tests
 
 ***
 
