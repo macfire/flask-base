@@ -73,6 +73,12 @@ Make manage.py executable
     (venv) $ chmod a+x manage.py
     Note: file must begin with #!/usr/bin/env python
 
+Using Flask-Migrate
+
+    (venv) $ ./manage.py db init
+    (venv) $ ./manage.py db migrate -m "initial migration"
+    (venv) $ ./manage.py db upgrade
+
 ***
 
 ####Credits
