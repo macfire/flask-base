@@ -4,7 +4,7 @@ flask-base
 Starter template for Flask-based apps. 
 TextMate project file included. 
 
-[Credits](#credits)
+[Credits](#credit)
 
 *(27 July 2014: This is a new work-in-progress; many changes are expected.)*
 
@@ -28,7 +28,7 @@ TextMate project file included.
     >>> db.create_all()
 
 ***
-<a id="credit"></a>
+
 ####Credit
 
 Structure and scripts pulled from various sources, including: 
