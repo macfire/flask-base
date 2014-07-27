@@ -64,6 +64,10 @@ Generate requirements
 
     (venv) $ pip freeze >requirements/common.txt
 
+Make manage.py executable
+
+    (venv) $ chmod a+x manage.py
+    Note: file must begin with #!/usr/bin/env python
 
 ***
 
