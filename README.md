@@ -6,3 +6,7 @@ Starter template for Flask-based apps.
 Structure and scripts pulled from various sources, including: 
 
 * https://github.com/miguelgrinberg/flasky
+
+***
+
+TextMate project file included
