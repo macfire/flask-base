@@ -16,6 +16,15 @@ TextMate project file included.
     |- config.py
     |- manage.py
     |- app
+      |- __init__.py (create_app())
+      |- blueprint-1 (placeholder)
+      |- static
+        |- css
+        |- images
+        |- js
+      |- templates
+        |- blueprint-1
+        |- user (for blueprint or Flask-User)
     |- requirements
     |- tests
 
