@@ -14,3 +14,16 @@ Structure and scripts pulled from various sources, including:
 ***
 
 TextMate project file included
+
+***
+
+####Structure
+
+
+***
+
+####Code Reminders
+
+    (venv) $ python manage.py shell
+    >>> from app import db
+    >>> db.create_all()
