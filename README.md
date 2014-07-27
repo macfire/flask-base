@@ -6,9 +6,10 @@ Flask-Base is a starter template for my Flask-based apps.
 I am new to Python and Flask, so this repository is a work-in-progress. 
 Updates will be made as I learn 'best-practices' from [others](#credits) and determine what works best for my style.
 
-Blueprint placeholders are included as reference and to help spin up new project. 
 
-#####Additional resources included
+#####Notes
+* Blueprint placeholder included as reference
+* Flask-User in requirements file
 * TextMate project file
 * css, js, and image placeholders
 
