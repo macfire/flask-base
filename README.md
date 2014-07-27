@@ -32,11 +32,21 @@ TextMate project file included.
 
 ####Code Reminders
 
-    user:~/flask-base $ virtualenv venv
+Create virtual environment
 
+    user:~/flask-base 
+    $ virtualenv venv
 
-    user:~/flask-base $ python venv/bin/activate
+Activate virtual environment
 
+    user:~/flask-base 
+    $ python venv/bin/activate
+
+pip install required packages (edit requirements as necessary)
+
+    (venv) $ pip install -r requirements/dev.txt
+
+Create database
 
     (venv) $ python manage.py shell
     >>> from app import db
