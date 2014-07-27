@@ -42,7 +42,7 @@ Updates will be made as I learn 'best-practices' from [others](#credits) and det
 
 To clone to new folder
 
-    git clone git@github.com:whatever folder-name
+    git clone git@github.com:macfire/flask-base.git your-new-app-folder-name
 
 Create virtual environment
 
