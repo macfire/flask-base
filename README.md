@@ -40,6 +40,10 @@ Updates will be made as I learn 'best-practices' from [others](#credits) and det
 
 ####Code Reminders
 
+To clone to new folder
+
+    git clone git@github.com:whatever folder-name
+
 Create virtual environment
 
     user:~/flask-base 
