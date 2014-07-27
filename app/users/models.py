@@ -5,10 +5,9 @@
 
     User models
 """
-
-#from flask_security import UserMixin, RoleMixin
 from .. import db
 from flask.ext.user import UserMixin
+from . import users
 #from ..helpers import JsonSerializer
 
 # Define the User-Roles pivot table

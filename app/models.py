@@ -6,5 +6,5 @@
     consolodated models module
 """
 
-#from .products.models import *
+from .users.models import *
 from .blueprint_1.models import *

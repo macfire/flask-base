@@ -1,14 +1,9 @@
+{% extends 'base.html' %}
+
 <h1>Hello world</h1>
 
-
 {% block content %}
-                <h2>{%trans%}Profile Page{%endtrans%}</h2>
-                <p> {%trans%}Hello{%endtrans%}
-                    {{ current_user.username or current_user.email }},</p>
-                <p> <a href="{{ url_for('user.change_username') }}">
-                    {%trans%}Change username{%endtrans%}</a></p>
-                <p> <a href="{{ url_for('user.change_password') }}">
-                    {%trans%}Change password{%endtrans%}</a></p>
-                <p> <a href="{{ url_for('user.logout') }}?next={{ url_for('user.login') }}">
-                    {%trans%}Sign out{%endtrans%}</a></p>
+                
+                <p> <a href="{{ url_for('user.login') }}">
+                    {%trans%}Sign in{%endtrans%}</a></p>
 {% endblock %}

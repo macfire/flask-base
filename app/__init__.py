@@ -43,14 +43,17 @@ def create_app(config_name):
     #login_manager.init_app(app)
     #pagedown.init_app(app)
 
-    from .users.models import User
-    db_adapter = SQLAlchemyAdapter(db, User)
-    user_manager = UserManager(db_adapter, app)
+    from .users import users as users_blueprint
+    app.register_blueprint(users_blueprint)
 
     from .main import main as main_blueprint
     app.register_blueprint(main_blueprint)
 
     from .blueprint_1 import blueprint_1 as blueprint_1_blueprint
     app.register_blueprint(blueprint_1_blueprint, url_prefix='/blueprint_1')
+
+    from .users.models import User
+    db_adapter = SQLAlchemyAdapter(db, User)
+    user_manager = UserManager(db_adapter, app)
 
     return app
