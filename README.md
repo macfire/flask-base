@@ -2,6 +2,7 @@ flask-base
 ==========
 
 Starter template for Flask-based apps.
+(27 July 2014: This is a new work-in-progress; many changes are expected.)
 
 Structure and scripts pulled from various sources, including: 
 
