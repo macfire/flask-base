@@ -4,7 +4,7 @@ flask-base
 Starter template for Flask-based apps. 
 TextMate project file included. 
 
-[Credits](#credit)
+[Credits](#credits)
 
 *(27 July 2014: This is a new work-in-progress; many changes are expected.)*
 
@@ -29,7 +29,7 @@ TextMate project file included.
 
 ***
 
-####Credit
+####Credits
 
 Structure and scripts pulled from various sources, including: 
 
