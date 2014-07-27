@@ -1,7 +1,7 @@
 flask-base
 ==========
 
-Starter template for Flask-based apps. Blueprint placeholders are included as reference and help spinning up new project. 
+Starter template for Flask-based apps. Blueprint placeholders are included as reference and to help spin up new project. 
 TextMate project file included. 
 
 [Credits](#credits)
