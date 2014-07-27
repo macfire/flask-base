@@ -1,0 +1,4 @@
+flask-base
+==========
+
+Starter template
