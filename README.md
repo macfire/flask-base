@@ -48,7 +48,7 @@ Create virtual environment
 Activate virtual environment
 
     user:~/flask-base 
-    $ python venv/bin/activate
+    $ source venv/bin/activate
 
 pip install required packages (edit requirements as necessary)
 
