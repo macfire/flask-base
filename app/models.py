@@ -8,4 +8,3 @@
 
 #from .products.models import *
 from .blueprint_1.models import *
-from .users.models import *
