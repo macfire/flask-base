@@ -5,9 +5,9 @@
 
 from flask import Flask
 from flask.ext.babel import Babel
-#from flask.ext.bootstrap import Bootstrap
+from flask.ext.bootstrap import Bootstrap
 #from flask.ext.mail import Mail
-#from flask.ext.moment import Moment
+from flask.ext.moment import Moment
 from flask.ext.sqlalchemy import SQLAlchemy
 from flask.ext.user import current_user, login_required, UserManager, UserMixin, SQLAlchemyAdapter
 from flask.ext.user import roles_required
@@ -17,9 +17,9 @@ from config import config
 
 
 # Initialize Flask extensions
-#bootstrap = Bootstrap()
+bootstrap = Bootstrap()
 #mail = Mail()
-#moment = Moment()
+moment = Moment()
 babel = Babel()
 db = SQLAlchemy()
 
@@ -35,9 +35,9 @@ def create_app(config_name):
     app.config.from_object(config[config_name])
     config[config_name].init_app(app)
 
-    #bootstrap.init_app(app)
+    bootstrap.init_app(app)
     #mail.init_app(app)
-    #moment.init_app(app)
+    moment.init_app(app)
     babel.init_app(app)
     db.init_app(app)
     #login_manager.init_app(app)
