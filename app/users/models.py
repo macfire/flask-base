@@ -24,11 +24,13 @@ class Role(db.Model):
     # Define User model. Make sure to add flask.ext.user UserMixin!!
 class User(db.Model, UserMixin):
         id = db.Column(db.Integer, primary_key=True)
-        user_profile_id = db.Column(db.Integer, db.ForeignKey('user_profile.id'), nullable=True, default=None)
         # Flask-User fields
+        username = db.Column(db.String(125), nullable=False, default='')
         active = db.Column(db.Boolean(), nullable=False, default=False)
         email = db.Column(db.String(255), nullable=False, default='')
         password = db.Column(db.String(255), nullable=False, default='')
+        # ForeignFields
+        user_profile_id = db.Column(db.Integer, db.ForeignKey('user_profile.id'), nullable=True, default=None)
         # Relationships
         user_profile = db.relationship('UserProfile', uselist=False, foreign_keys=[user_profile_id])
         roles = db.relationship('Role', secondary=user_roles,
