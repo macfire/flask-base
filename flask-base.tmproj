@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>app/templates/base.html</string>
+	<string>app/__init__.py</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -21,19 +21,49 @@
 	<integer>274</integer>
 	<key>metaData</key>
 	<dict>
-		<key>app/__init__.py</key>
+		<key>README.md</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>4</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>39</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+		</dict>
+		<key>app/__init__.py</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>columnSelection</key>
+			<false/>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>22</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
 		</dict>
 		<key>app/blueprint_1/__init__.py</key>
 		<dict>
@@ -107,36 +137,6 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>app/templates/base.html</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>35</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>4</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>0</integer>
-				<key>line</key>
-				<integer>0</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>7</integer>
-				<key>line</key>
-				<integer>67</integer>
-			</dict>
-		</dict>
 		<key>app/templates/index.html</key>
 		<dict>
 			<key>caret</key>
@@ -191,7 +191,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>5</integer>
+			<integer>0</integer>
 		</dict>
 		<key>manage.py</key>
 		<dict>
@@ -207,14 +207,14 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
-		<key>requirements/common.txt</key>
+		<key>requirements/dev.txt</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>11</integer>
+				<integer>0</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -225,21 +225,13 @@
 	<key>openDocuments</key>
 	<array>
 		<string>app/__init__.py</string>
-		<string>app/templates/index.html</string>
-		<string>app/templates/base.html</string>
-		<string>requirements/common.txt</string>
 		<string>config.py</string>
 		<string>manage.py</string>
-		<string>app/blueprint_1/models.py</string>
-		<string>app/users/models.py</string>
-		<string>app/main/views.py</string>
-		<string>app/models.py</string>
-		<string>app/users/__init__.py</string>
-		<string>app/blueprint_1/__init__.py</string>
+		<string>README.md</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{1473, 308}, {914, 1082}}</string>
+	<string>{{399, 50}, {914, 1082}}</string>
 </dict>
 </plist>
