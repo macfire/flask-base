@@ -1,9 +1,7 @@
 {% extends 'base.html' %}
 
-<h1>Hello world</h1>
 
-{% block content %}
-                
-                <p> <a href="{{ url_for('user.login') }}">
-                    {%trans%}Sign in{%endtrans%}</a></p>
+{% block innercontent %}
+<h1>Welcome</h1>
+<p>This is a start.</p>
 {% endblock %}
